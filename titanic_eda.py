@@ -5,6 +5,7 @@ import seaborn as sns
 #Load Titanic dataset 
 url = "https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv" 
 df = pd.read_csv(url) 
+# df = pd.read_csv('titanic.csv')
 
 #Inspect Data 
 print(df.info()) 
